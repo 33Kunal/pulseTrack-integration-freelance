@@ -54,7 +54,7 @@ async function weatherStation(keyword) {
   
         return `${cityName}, ${temperature}, ${wind}, ${humidity}`;
       });
-  
+
       return result;
     } catch (error) {
       console.error("Error:", error);
